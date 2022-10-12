@@ -24,7 +24,7 @@ engine.setProperty('volume', 1.0)
 
 # Set Voice (Female)
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[3].id)
 
 
 # Text to Speech Conversion
@@ -66,7 +66,7 @@ def take_user_input():
             speak(choice(opening_text))
         else:
             hour = datetime.now().hour
-            if hour >= 21 and hour < 6:
+            if hour >= 20 and hour < 6:
                 speak("Good night sir, take care!")
             else:
                 speak('Have a good day sir!')
