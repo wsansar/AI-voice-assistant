@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
         elif 'ip address' in query:
             ip_address = find_my_ip()
-            speak(f'Your IP Address is {ip_address}.\n For your convenience, I am printing it on the screen sir.')
+            speak(f'Your IP Address is {ip_address}.\n For your convenience, I am printing it on the screen.')
             print(f'Your IP Address is {ip_address}')
 
         elif 'wikipedia' in query:
