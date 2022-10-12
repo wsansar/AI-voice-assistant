@@ -46,7 +46,7 @@ def greet_user():
         speak(f"Good afternoon {USERNAME}")
     elif (hour >= 16) and (hour < 19):
         speak(f"Good Evening {USERNAME}")
-    speak(f"I am {BOTNAME}. How may I assist you?")
+    speak(f"I am {BOTNAME}. How can i help you?")
 
 
 # Takes Input from User
@@ -72,7 +72,7 @@ def take_user_input():
                 speak('Have a good day sir!')
             exit()
     except Exception:
-        speak('Sorry, I could not understand. Could you please say that again?')
+        speak('Pardon, I could not understand. Could you please say that again?')
         query = 'None'
     return query
 
