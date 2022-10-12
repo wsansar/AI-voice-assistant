@@ -173,5 +173,5 @@ if __name__ == '__main__':
             weather, temperature, feels_like = get_weather_report(city)
             speak(f"The current temperature is {temperature}, but it feels like {feels_like}")
             speak(f"Also, the weather report talks about {weather}")
-            speak("For your convenience, I am printing it on the screen sir.")
+            speak("For your convenience, I am publishing it on the screen sir.")
             print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
