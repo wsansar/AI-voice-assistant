@@ -51,7 +51,7 @@ def greet_user():
 
 # Takes Input from User
 def take_user_input():
-    """This thing Takes user input, recognizes it using Speech Recognition module and converts it into text"""
+    
     
     r = sr.Recognizer()
     with sr.Microphone() as source:
