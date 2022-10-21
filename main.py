@@ -6,8 +6,7 @@ from decouple import config
 from datetime import datetime
 from functions.os_ops import open_calculator, open_camera, open_cmd, open_notepad, open_discord
 from random import choice
-from utils import opening_text
-from pprint import pprint
+
 
 
 USERNAME = config('USER')
