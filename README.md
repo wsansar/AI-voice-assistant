@@ -19,5 +19,3 @@ Get Random Jokes
 Get Random Advice
 what's New
 go to pull request
-
-Voice cloning is the process in which one uses a computer to generate the speech of a real individual, creating a clone of their specific, unique voice using artificial intelligence (AI).
